@@ -79,4 +79,44 @@
     <string name="language_title">Language</string>
     <string name="language_english">English</string>
     <string name="language_arabic">العربية</string>
+    <!-- Explore: departments -->
+    <string name="browse_departments">Browse departments</string>
+    <string name="choose_department_hint">Choose a department to see its details.</string>
+
+    <!-- Campuses -->
+    <string name="campus_south">South Campus - Boumerdès</string>
+    <string name="campus_west">West Campus - Boumerdès</string>
+    <string name="campus_north">North Campus - Boumerdès</string>
+    <string name="campus_boudouaou">Boudouaou Campus</string>
+
+    <!-- Department names -->
+    <string name="dept_biology">Biology</string>
+    <string name="dept_agronomy">Agronomy</string>
+    <string name="dept_staps">Sciences and Techniques of Physical and Sports Activities</string>
+    <string name="dept_mechanical">Mechanical Engineering</string>
+    <string name="dept_civil">Civil Engineering</string>
+    <string name="dept_electrical">Electrical Systems Engineering</string>
+    <string name="dept_process">Process Engineering</string>
+    <string name="dept_earthquake">Earthquake Engineering and Random Phenomena</string>
+    <string name="dept_transport">Transport and Hydrocarbon Equipment</string>
+    <string name="dept_chem_pharma">Chemical Process Engineering and Pharmaceuticals</string>
+    <string name="dept_automation">Process Automation and Electrification</string>
+    <string name="dept_mining">Mining and Petroleum Deposits</string>
+    <string name="dept_hydro_economics">Economics and Marketing of Hydrocarbons</string>
+    <string name="dept_public_law">Public Law</string>
+    <string name="dept_private_law">Private Law</string>
+    <string name="dept_political_science">Political Science</string>
+    <string name="dept_arabic">Arabic Letters</string>
+    <string name="dept_french">French</string>
+    <string name="dept_english">English</string>
+    <string name="dept_management">Management Sciences</string>
+    <string name="dept_commercial">Commercial Sciences</string>
+    <string name="dept_economics">Economics</string>
+    <string name="dept_finance">Finance and Accounting</string>
+    <!-- Location -->
+    <string name="location_title">Find your way.</string>
+    <string name="location_desc">Tap a campus to open it in Google Maps.</string>
+    <string name="campuses">Campuses</string>
+    <string name="directions">Directions</string>
+    <string name="no_map_app">No app found to open the map.</string>
 </resources>

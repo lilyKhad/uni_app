@@ -12,8 +12,4 @@
         android:id="@+id/nav_location"
         android:icon="@drawable/ic_nav_location"
         android:title="@string/nav_location" />
-    <item
-        android:id="@+id/nav_language"
-        android:icon="@drawable/ic_nav_language"
-        android:title="@string/nav_language" />
 </menu>
