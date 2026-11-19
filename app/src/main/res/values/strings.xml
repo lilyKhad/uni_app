@@ -7,6 +7,13 @@
     <string name="nav_location">Location</string>
     <string name="nav_language">Language</string>
 
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="theme_toggle">Toggle theme</string>
+    <string name="about">About</string>
+    <string name="departments">Departments</string>
+    <string name="view_all">View all</string>
+
     <!-- Discover -->
     <string name="discover_tagline">A world of knowledge.</string>
     <string name="discover_title">Find your place at UMBB.</string>
@@ -30,7 +37,9 @@
     <string name="tab_faculties">Faculties</string>
     <string name="tab_departments">Departments</string>
     <string name="browse_faculties">Browse faculties</string>
+    <string name="browse_departments">Browse departments</string>
     <string name="choose_faculty_hint">Choose a faculty to explore its departments.</string>
+    <string name="choose_department_hint">Choose a department to see its details.</string>
 
     <!-- Faculty names -->
     <string name="faculty_sciences">Sciences</string>
@@ -40,24 +49,36 @@
     <string name="faculty_letters">Letters &amp; Languages</string>
     <string name="faculty_economics">Economics &amp; Management</string>
 
+
+    <!-- Faculty descriptions -->
+
+    <string name="faculty_sciences_desc">The Faculty of Sciences provides a strong academic foundation in scientific disciplines, combining theoretical knowledge with practical learning and research. Its departments cover Physics, Mathematics, Chemistry, Biology, Agronomy, Sports Sciences and Computer Science, offering students diverse opportunities to explore scientific concepts and develop analytical and technical skills.</string>
+
+    <string name="faculty_technology_desc">The Faculty of Technology focuses on engineering, applied sciences and technological innovation. Through its departments of Mechanical Engineering, Civil Engineering, Electrical Engineering and Process Engineering, it provides students with the technical knowledge and practical expertise needed to understand, design and improve modern engineering systems.</string>
+
+    <string name="faculty_hydrocarbons_desc">The Faculty of Hydrocarbons brings together scientific and engineering disciplines related to energy, industrial processes and natural resources. Its academic fields include Earthquake Engineering, Transport, Chemical and Pharmaceutical Sciences, Automation, Mining and Hydrocarbon Economics, providing a multidisciplinary perspective on industrial and energy-related challenges.</string>
+
+    <string name="faculty_law_desc">The Faculty of Law offers academic education in legal studies, public institutions and political systems. Through Public Law, Private Law and Political Science, students develop an understanding of legal frameworks, governance, individual rights and the principles that regulate social and institutional relationships.</string>
+
+    <string name="faculty_letters_desc">The Faculty of Letters and Languages promotes the study of languages, literature and communication. Its departments of Arabic, French and English provide students with opportunities to develop linguistic proficiency, literary knowledge, critical thinking and intercultural communication skills.</string>
+
+    <string name="faculty_economics_desc">The Faculty of Economics focuses on economic systems, business management and financial activities. Through Management, Commercial Sciences, Economics and Finance, students explore organizational strategies, markets, economic analysis and financial decision-making in an increasingly interconnected business environment.</string>
+
+    <string name="faculty_default_description">Discover the academic departments, educational programs and facilities of this faculty.</string>
+
+
     <!-- Faculty details -->
-    <string name="faculty_details">Faculty details</string>
+    <string name="faculty_details_title">Faculty details</string>
     <string name="faculty_label">FACULTY</string>
-    <string name="faculty_of_sciences">Faculty of Sciences</string>
-    <string name="faculty_of_sciences_tagline">Discover your next chapter in science.</string>
-    <string name="action_call">Call</string>
-    <string name="action_sms">SMS</string>
-    <string name="action_email">Email</string>
-    <string name="about">About</string>
-    <string name="faculty_of_sciences_about">Explore scientific disciplines, research and the departments that bring them together.</string>
-    <string name="departments">Departments</string>
-    <string name="view_all">View all</string>
-    <string name="dept_computer_science">Computer science</string>
-    <string name="dept_mathematics">Mathematics</string>
-    <string name="dept_physics">Physics</string>
-    <string name="dept_chemistry">Chemistry</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="email">Email</string>
+    <string name="about_title">About</string>
+    <string name="departments_title">Departments</string>
     <string name="find_your_way">Find your way here</string>
-    <string name="open_google_maps">Open in Google Maps</string>
+    <string name="open_in_maps">Open in Google Maps</string>
+    <string name="no_app_available">No app available for this action</string>
+    <string name="no_contact_info">Contact information is not available yet</string>
 
     <!-- Department details -->
     <string name="department_details">Department details</string>
@@ -75,14 +96,6 @@
     <string name="spec_ai_desc">Algorithms and machine learning</string>
     <string name="find_department">Find the department</string>
 
-    <!-- Language screen -->
-    <string name="language_title">Language</string>
-    <string name="language_english">English</string>
-    <string name="language_arabic">العربية</string>
-    <!-- Explore: departments -->
-    <string name="browse_departments">Browse departments</string>
-    <string name="choose_department_hint">Choose a department to see its details.</string>
-
     <!-- Campuses -->
     <string name="campus_south">South Campus - Boumerdès</string>
     <string name="campus_west">West Campus - Boumerdès</string>
@@ -90,6 +103,10 @@
     <string name="campus_boudouaou">Boudouaou Campus</string>
 
     <!-- Department names -->
+    <string name="dept_computer_science">Computer science</string>
+    <string name="dept_mathematics">Mathematics</string>
+    <string name="dept_physics">Physics</string>
+    <string name="dept_chemistry">Chemistry</string>
     <string name="dept_biology">Biology</string>
     <string name="dept_agronomy">Agronomy</string>
     <string name="dept_staps">Sciences and Techniques of Physical and Sports Activities</string>
@@ -113,10 +130,18 @@
     <string name="dept_commercial">Commercial Sciences</string>
     <string name="dept_economics">Economics</string>
     <string name="dept_finance">Finance and Accounting</string>
+
     <!-- Location -->
     <string name="location_title">Find your way.</string>
     <string name="location_desc">Tap a campus to open it in Google Maps.</string>
     <string name="campuses">Campuses</string>
     <string name="directions">Directions</string>
     <string name="no_map_app">No app found to open the map.</string>
+
+    <!-- Language screen -->
+    <string name="language_title">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية</string>
+
+    <string name="open_google_maps">Open in Google Maps</string>
 </resources>

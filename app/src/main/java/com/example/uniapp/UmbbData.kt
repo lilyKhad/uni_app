@@ -5,7 +5,10 @@ import androidx.annotation.StringRes
 data class Faculty(
     @StringRes val name: Int,
     @StringRes val campus: Int,
-    val departments: List<Int>
+    val departments: List<Int>,
+    @StringRes val description: Int = R.string.faculty_default_description,
+    val phone: String = "",
+    val email: String = ""
 )
 
 data class Department(
@@ -20,42 +23,74 @@ data class Campus(
 object UmbbData {
 
     val faculties: List<Faculty> = listOf(
+
         Faculty(
             R.string.faculty_sciences, R.string.campus_south,
             listOf(
                 R.string.dept_physics, R.string.dept_mathematics, R.string.dept_chemistry,
                 R.string.dept_biology, R.string.dept_agronomy, R.string.dept_staps,
                 R.string.dept_computer_science
-            )
+            ),
+            description = R.string.faculty_sciences_desc,
+            phone = "+213000000000",
+            email = "sciences@univ-boumerdes.dz"
         ),
+
         Faculty(
             R.string.faculty_technology, R.string.campus_west,
             listOf(
                 R.string.dept_mechanical, R.string.dept_civil,
                 R.string.dept_electrical, R.string.dept_process
-            )
+            ),
+            description = R.string.faculty_technology_desc,
+            phone = "+213000000000",
+            email = "technology@univ-boumerdes.dz"
         ),
+
         Faculty(
             R.string.faculty_hydrocarbons, R.string.campus_north,
             listOf(
                 R.string.dept_earthquake, R.string.dept_transport, R.string.dept_chem_pharma,
                 R.string.dept_automation, R.string.dept_mining, R.string.dept_hydro_economics
-            )
+            ),
+            description = R.string.faculty_hydrocarbons_desc,
+            phone = "+213000000000",
+            email = "hydrocarbons@univ-boumerdes.dz"
         ),
+
         Faculty(
             R.string.faculty_law, R.string.campus_boudouaou,
-            listOf(R.string.dept_public_law, R.string.dept_private_law, R.string.dept_political_science)
+            listOf(
+                R.string.dept_public_law,
+                R.string.dept_private_law,
+                R.string.dept_political_science
+            ),
+            description = R.string.faculty_law_desc,
+            phone = "+213000000000",
+            email = "law@univ-boumerdes.dz"
         ),
+
         Faculty(
             R.string.faculty_letters, R.string.campus_boudouaou,
-            listOf(R.string.dept_arabic, R.string.dept_french, R.string.dept_english)
+            listOf(
+                R.string.dept_arabic,
+                R.string.dept_french,
+                R.string.dept_english
+            ),
+            description = R.string.faculty_letters_desc,
+            phone = "+213000000000",
+            email = "letters@univ-boumerdes.dz"
         ),
+
         Faculty(
             R.string.faculty_economics, R.string.campus_north,
             listOf(
                 R.string.dept_management, R.string.dept_commercial,
                 R.string.dept_economics, R.string.dept_finance
-            )
+            ),
+            description = R.string.faculty_economics_desc,
+            phone = "+213000000000",
+            email = "economics@univ-boumerdes.dz"
         )
     )
 
