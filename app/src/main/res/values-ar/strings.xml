@@ -1,37 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">رفيق الحرم الجامعي</string>
+    <string name="app_name">مرشد حرم UMBB</string>
 
     <!-- Bottom navigation -->
-    <string name="nav_discover">اكتشف</string>
+    <string name="nav_discover">استكشف</string>
     <string name="nav_faculties">الكليات</string>
     <string name="nav_location">الموقع</string>
     <string name="nav_language">اللغة</string>
 
+    <!-- Common -->
+    <string name="back">رجوع</string>
+    <string name="theme_toggle">تبديل المظهر</string>
+    <string name="about">عن</string>
+    <string name="departments">الأقسام</string>
+    <string name="view_all">عرض الكل</string>
+
     <!-- Discover -->
     <string name="discover_tagline">عالم من المعرفة.</string>
-    <string name="discover_title">اعثر على مكانك في جامعة بومرداس.</string>
+    <string name="discover_title">اعثر على مكانك في UMBB.</string>
     <string name="search_hint_short">ابحث عن كلية أو قسم</string>
     <string name="discover_label">اكتشف جامعتك</string>
     <string name="university_name">جامعة بومرداس</string>
-    <string name="university_desc">جامعة عمومية في الجزائر. استكشف كلياتها وأقسامها ومجالات الدراسة فيها.</string>
+    <string name="university_desc">جامعة عمومية في الجزائر. استكشف كلياتها وأقسامها وتخصصاتها.</string>
     <string name="about_university">عن الجامعة</string>
     <string name="start_exploring">ابدأ الاستكشاف</string>
-    <string name="faculties_card_desc">اعثر على مجال دراستك</string>
+    <string name="faculties_card_desc">اعثر على تخصصك</string>
     <string name="departments_card_title">الأقسام</string>
-    <string name="departments_card_desc">استكشف التعليم والتخصصات</string>
+    <string name="departments_card_desc">استكشف التدريس والتخصصات</string>
     <string name="city_country">بومرداس، الجزائر</string>
     <string name="view_map">عرض الخريطة</string>
 
     <!-- Faculties list -->
-    <string name="explore_umbb">استكشف الجامعة</string>
+    <string name="explore_umbb">استكشف UMBB</string>
     <string name="find_faculty_title">اعثر على كليتك.</string>
-    <string name="find_faculty_desc">استكشف الأشخاص والأماكن في جامعة بومرداس.</string>
-    <string name="search_hint_long">ابحث عن الكليات أو الأقسام</string>
+    <string name="find_faculty_desc">استكشف الأشخاص والأماكن في UMBB.</string>
+    <string name="search_hint_long">ابحث عن كليات أو أقسام</string>
     <string name="tab_faculties">الكليات</string>
     <string name="tab_departments">الأقسام</string>
     <string name="browse_faculties">تصفح الكليات</string>
+    <string name="browse_departments">تصفح الأقسام</string>
     <string name="choose_faculty_hint">اختر كلية لاستكشاف أقسامها.</string>
+    <string name="choose_department_hint">اختر قسمًا لعرض تفاصيله.</string>
 
     <!-- Faculty names -->
     <string name="faculty_sciences">العلوم</string>
@@ -39,33 +47,46 @@
     <string name="faculty_hydrocarbons">المحروقات والكيمياء</string>
     <string name="faculty_law">الحقوق والعلوم السياسية</string>
     <string name="faculty_letters">الآداب واللغات</string>
-    <string name="faculty_economics">الاقتصاد والتسيير</string>
+    <string name="faculty_economics">العلوم الاقتصادية والتسيير</string>
+
+
+
+    <!-- Faculty descriptions -->
+
+    <string name="faculty_sciences_desc">تُعنى كلية العلوم بالتكوين الأكاديمي والبحث العلمي في مختلف التخصصات العلمية، من خلال الجمع بين المعارف النظرية والتطبيقات العملية. وتشمل تخصصاتها الفيزياء والرياضيات والكيمياء وعلوم الطبيعة والحياة والعلوم الفلاحية وعلوم وتقنيات النشاطات البدنية والرياضية والإعلام الآلي، مما يتيح للطلبة اكتساب معارف علمية ومهارات تحليلية وتقنية متنوعة.</string>
+
+    <string name="faculty_technology_desc">تُركز كلية التكنولوجيا على التكوين في مجالات الهندسة والعلوم التطبيقية والابتكار التكنولوجي. وتضم تخصصات الهندسة الميكانيكية والهندسة المدنية والهندسة الكهربائية وهندسة الطرائق، حيث توفر للطلبة المعارف العلمية والمهارات التقنية اللازمة لفهم الأنظمة الهندسية وتصميمها وتطويرها بما يتماشى مع متطلبات التطور الصناعي والتكنولوجي.</string>
+
+    <string name="faculty_hydrocarbons_desc">تجمع كلية المحروقات بين التخصصات العلمية والهندسية المرتبطة بالطاقة والموارد الطبيعية والعمليات الصناعية. وتشمل مجالات التكوين هندسة الزلازل والنقل والعلوم الكيميائية والصيدلانية والأتمتة والمناجم واقتصاد المحروقات، بما يوفر تكوينًا متعدد التخصصات لفهم التحديات المرتبطة بقطاع الطاقة والصناعة.</string>
+
+    <string name="faculty_law_desc">تُوفر كلية الحقوق تكوينًا أكاديميًا في مختلف المجالات القانونية، مع التركيز على دراسة القوانين والمؤسسات والأنظمة السياسية. وتشمل تخصصاتها القانون العام والقانون الخاص والعلوم السياسية، مما يساعد الطلبة على فهم المنظومة القانونية ومبادئ الحوكمة والحقوق الفردية والعلاقات الاجتماعية والمؤسساتية.</string>
+
+    <string name="faculty_letters_desc">تهتم كلية الآداب واللغات بدراسة اللغات وآدابها وتعزيز مهارات التواصل والتعبير. وتشمل تخصصاتها اللغة العربية واللغة الفرنسية واللغة الإنجليزية، حيث تتيح للطلبة تطوير كفاءاتهم اللغوية، وتعميق معارفهم الأدبية والثقافية، وتنمية قدراتهم على التحليل والتواصل بين الثقافات.</string>
+
+    <string name="faculty_economics_desc">تُعنى كلية العلوم الاقتصادية والتجارية وعلوم التسيير بدراسة الأنظمة الاقتصادية ومجالات إدارة المؤسسات والأنشطة التجارية والمالية. وتشمل تخصصاتها علوم التسيير والعلوم التجارية والعلوم الاقتصادية والعلوم المالية، مما يساهم في تطوير قدرات الطلبة في التحليل الاقتصادي والتخطيط الإداري وفهم الأسواق واتخاذ القرارات المالية.</string>
+
+    <string name="faculty_default_description">اكتشف التخصصات والأقسام والمرافق الجامعية التابعة لهذه الكلية.</string>
+
 
     <!-- Faculty details -->
-    <string name="faculty_details">معلومات الكلية</string>
-    <string name="faculty_label">كلية</string>
-    <string name="faculty_of_sciences">كلية العلوم</string>
-    <string name="faculty_of_sciences_tagline">اكتشف فصلك القادم في العلوم.</string>
-    <string name="action_call">اتصال</string>
-    <string name="action_sms">رسالة</string>
-    <string name="action_email">البريد</string>
-    <string name="about">حول</string>
-    <string name="faculty_of_sciences_about">استكشف التخصصات العلمية والبحث والأقسام التي تجمع بينها.</string>
-    <string name="departments">الأقسام</string>
-    <string name="view_all">عرض الكل</string>
-    <string name="dept_computer_science">الإعلام الآلي</string>
-    <string name="dept_mathematics">الرياضيات</string>
-    <string name="dept_physics">الفيزياء</string>
-    <string name="dept_chemistry">الكيمياء</string>
-    <string name="find_your_way">اعثر على طريقك</string>
-    <string name="open_google_maps">فتح في خرائط جوجل</string>
+    <string name="faculty_details_title">تفاصيل الكلية</string>
+    <string name="faculty_label">الكلية</string>
+    <string name="call">اتصال</string>
+    <string name="sms">رسالة</string>
+    <string name="email">البريد</string>
+    <string name="about_title">عن الكلية</string>
+    <string name="departments_title">الأقسام</string>
+    <string name="find_your_way">موقع الكلية</string>
+    <string name="open_in_maps">فتح في خرائط Google</string>
+    <string name="no_app_available">لا يوجد تطبيق مناسب لهذا الإجراء</string>
+    <string name="no_contact_info">معلومات الاتصال غير متوفرة بعد</string>
 
     <!-- Department details -->
-    <string name="department_details">معلومات القسم</string>
+    <string name="department_details">تفاصيل القسم</string>
     <string name="faculty_of_sciences_caps">كلية العلوم</string>
     <string name="department_subtitle">قسم • جامعة بومرداس</string>
     <string name="about_department">عن القسم</string>
-    <string name="department_about">ادرس الحوسبة والبرمجة والأنظمة الرقمية. استكشف مجالات الدراسة في القسم أدناه.</string>
+    <string name="department_about">ادرس الحوسبة والبرمجة والأنظمة الرقمية. استكشف تخصصات القسم أدناه.</string>
     <string name="specialties">التخصصات</string>
     <string name="fields_of_study">مجالات الدراسة</string>
     <string name="spec_software_engineering">هندسة البرمجيات</string>
@@ -76,48 +97,52 @@
     <string name="spec_ai_desc">الخوارزميات والتعلم الآلي</string>
     <string name="find_department">اعثر على القسم</string>
 
-    <!-- Language screen -->
-    <string name="language_title">اللغة</string>
-    <string name="language_english">English</string>
-    <string name="language_arabic">العربية</string>
-    <!-- Explore: departments -->
-    <string name="browse_departments">تصفح الأقسام</string>
-    <string name="choose_department_hint">اختر قسمًا لعرض تفاصيله.</string>
-
     <!-- Campuses -->
-    <string name="campus_south">الحرم الجنوبي - بومرداس</string>
-    <string name="campus_west">الحرم الغربي - بومرداس</string>
-    <string name="campus_north">الحرم الشمالي - بومرداس</string>
-    <string name="campus_boudouaou">حرم بودواو</string>
+    <string name="campus_south">الحرم الجامعي الجنوبي - بومرداس</string>
+    <string name="campus_west">الحرم الجامعي الغربي - بومرداس</string>
+    <string name="campus_north">الحرم الجامعي الشمالي - بومرداس</string>
+    <string name="campus_boudouaou">حرم بودواو الجامعي</string>
 
     <!-- Department names -->
-    <string name="dept_biology">البيولوجيا</string>
-    <string name="dept_agronomy">العلوم الفلاحية</string>
+    <string name="dept_computer_science">علوم الحاسوب</string>
+    <string name="dept_mathematics">الرياضيات</string>
+    <string name="dept_physics">الفيزياء</string>
+    <string name="dept_chemistry">الكيمياء</string>
+    <string name="dept_biology">علم الأحياء</string>
+    <string name="dept_agronomy">علوم الفلاحة</string>
     <string name="dept_staps">علوم وتقنيات النشاطات البدنية والرياضية</string>
     <string name="dept_mechanical">الهندسة الميكانيكية</string>
     <string name="dept_civil">الهندسة المدنية</string>
     <string name="dept_electrical">هندسة الأنظمة الكهربائية</string>
     <string name="dept_process">هندسة الطرائق</string>
-    <string name="dept_earthquake">الهندسة الزلزالية والظواهر العشوائية</string>
-    <string name="dept_transport">نقل ومعدات المحروقات</string>
+    <string name="dept_earthquake">هندسة الزلازل والظواهر العشوائية</string>
+    <string name="dept_transport">النقل ومعدات المحروقات</string>
     <string name="dept_chem_pharma">هندسة الطرائق الكيميائية والصيدلانية</string>
-    <string name="dept_automation">آلية الطرائق والكهربة</string>
-    <string name="dept_mining">المناجم والمكامن البترولية</string>
-    <string name="dept_hydro_economics">اقتصاد وتسويق المحروقات</string>
+    <string name="dept_automation">أتمتة العمليات والكهربة</string>
+    <string name="dept_mining">المناجم وحقول البترول</string>
+    <string name="dept_hydro_economics">اقتصاد المحروقات وتسويقها</string>
     <string name="dept_public_law">القانون العام</string>
     <string name="dept_private_law">القانون الخاص</string>
     <string name="dept_political_science">العلوم السياسية</string>
-    <string name="dept_arabic">اللغة والأدب العربي</string>
+    <string name="dept_arabic">الآداب العربية</string>
     <string name="dept_french">اللغة الفرنسية</string>
     <string name="dept_english">اللغة الإنجليزية</string>
     <string name="dept_management">علوم التسيير</string>
     <string name="dept_commercial">العلوم التجارية</string>
     <string name="dept_economics">العلوم الاقتصادية</string>
     <string name="dept_finance">المالية والمحاسبة</string>
+
     <!-- Location -->
     <string name="location_title">اعثر على طريقك.</string>
-    <string name="location_desc">اضغط على حرم جامعي لفتحه في خرائط جوجل.</string>
-    <string name="campuses">الأحرام الجامعية</string>
+    <string name="location_desc">اضغط على حرم جامعي لفتحه في خرائط Google.</string>
+    <string name="campuses">الحرم الجامعي</string>
     <string name="directions">الاتجاهات</string>
-    <string name="no_map_app">لم يتم العثور على تطبيق لفتح الخريطة.</string>
+    <string name="no_map_app">لا يوجد تطبيق لفتح الخريطة.</string>
+
+    <!-- Language screen -->
+    <string name="language_title">اللغة</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية</string>
+
+    <string name="open_google_maps">فتح في خرائط Google</string>
 </resources>

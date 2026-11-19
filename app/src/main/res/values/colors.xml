@@ -10,4 +10,6 @@
     <color name="umbb_text_primary">#14302F</color>
     <color name="umbb_text_secondary">#6B7B78</color>
     <color name="umbb_outline">#E5EAE7</color>
+    <color name="umbb_hero">#1B3A34</color>
+    <color name="umbb_map_card">#DDEBE5</color>
 </resources>
