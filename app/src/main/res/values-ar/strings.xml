@@ -80,4 +80,44 @@
     <string name="language_title">اللغة</string>
     <string name="language_english">English</string>
     <string name="language_arabic">العربية</string>
+    <!-- Explore: departments -->
+    <string name="browse_departments">تصفح الأقسام</string>
+    <string name="choose_department_hint">اختر قسمًا لعرض تفاصيله.</string>
+
+    <!-- Campuses -->
+    <string name="campus_south">الحرم الجنوبي - بومرداس</string>
+    <string name="campus_west">الحرم الغربي - بومرداس</string>
+    <string name="campus_north">الحرم الشمالي - بومرداس</string>
+    <string name="campus_boudouaou">حرم بودواو</string>
+
+    <!-- Department names -->
+    <string name="dept_biology">البيولوجيا</string>
+    <string name="dept_agronomy">العلوم الفلاحية</string>
+    <string name="dept_staps">علوم وتقنيات النشاطات البدنية والرياضية</string>
+    <string name="dept_mechanical">الهندسة الميكانيكية</string>
+    <string name="dept_civil">الهندسة المدنية</string>
+    <string name="dept_electrical">هندسة الأنظمة الكهربائية</string>
+    <string name="dept_process">هندسة الطرائق</string>
+    <string name="dept_earthquake">الهندسة الزلزالية والظواهر العشوائية</string>
+    <string name="dept_transport">نقل ومعدات المحروقات</string>
+    <string name="dept_chem_pharma">هندسة الطرائق الكيميائية والصيدلانية</string>
+    <string name="dept_automation">آلية الطرائق والكهربة</string>
+    <string name="dept_mining">المناجم والمكامن البترولية</string>
+    <string name="dept_hydro_economics">اقتصاد وتسويق المحروقات</string>
+    <string name="dept_public_law">القانون العام</string>
+    <string name="dept_private_law">القانون الخاص</string>
+    <string name="dept_political_science">العلوم السياسية</string>
+    <string name="dept_arabic">اللغة والأدب العربي</string>
+    <string name="dept_french">اللغة الفرنسية</string>
+    <string name="dept_english">اللغة الإنجليزية</string>
+    <string name="dept_management">علوم التسيير</string>
+    <string name="dept_commercial">العلوم التجارية</string>
+    <string name="dept_economics">العلوم الاقتصادية</string>
+    <string name="dept_finance">المالية والمحاسبة</string>
+    <!-- Location -->
+    <string name="location_title">اعثر على طريقك.</string>
+    <string name="location_desc">اضغط على حرم جامعي لفتحه في خرائط جوجل.</string>
+    <string name="campuses">الأحرام الجامعية</string>
+    <string name="directions">الاتجاهات</string>
+    <string name="no_map_app">لم يتم العثور على تطبيق لفتح الخريطة.</string>
 </resources>
