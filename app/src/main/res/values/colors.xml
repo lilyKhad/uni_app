@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="umbb_dark">#14302F</color>
+    <color name="umbb_primary">#2F6B4F</color>
+    <color name="umbb_on_primary">#FFFFFF</color>
+    <color name="umbb_green_light">#E3EEDC</color>
+    <color name="umbb_background">#F5F7F5</color>
+    <color name="umbb_surface">#FFFFFF</color>
+    <color name="umbb_text_primary">#14302F</color>
+    <color name="umbb_text_secondary">#6B7B78</color>
+    <color name="umbb_outline">#E5EAE7</color>
 </resources>

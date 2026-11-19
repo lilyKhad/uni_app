@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رفيق الحرم الجامعي</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_discover">اكتشف</string>
+    <string name="nav_faculties">الكليات</string>
+    <string name="nav_location">الموقع</string>
+    <string name="nav_language">اللغة</string>
+
+    <!-- Discover -->
+    <string name="discover_tagline">عالم من المعرفة.</string>
+    <string name="discover_title">اعثر على مكانك في جامعة بومرداس.</string>
+    <string name="search_hint_short">ابحث عن كلية أو قسم</string>
+    <string name="discover_label">اكتشف جامعتك</string>
+    <string name="university_name">جامعة بومرداس</string>
+    <string name="university_desc">جامعة عمومية في الجزائر. استكشف كلياتها وأقسامها ومجالات الدراسة فيها.</string>
+    <string name="about_university">عن الجامعة</string>
+    <string name="start_exploring">ابدأ الاستكشاف</string>
+    <string name="faculties_card_desc">اعثر على مجال دراستك</string>
+    <string name="departments_card_title">الأقسام</string>
+    <string name="departments_card_desc">استكشف التعليم والتخصصات</string>
+    <string name="city_country">بومرداس، الجزائر</string>
+    <string name="view_map">عرض الخريطة</string>
+
+    <!-- Faculties list -->
+    <string name="explore_umbb">استكشف الجامعة</string>
+    <string name="find_faculty_title">اعثر على كليتك.</string>
+    <string name="find_faculty_desc">استكشف الأشخاص والأماكن في جامعة بومرداس.</string>
+    <string name="search_hint_long">ابحث عن الكليات أو الأقسام</string>
+    <string name="tab_faculties">الكليات</string>
+    <string name="tab_departments">الأقسام</string>
+    <string name="browse_faculties">تصفح الكليات</string>
+    <string name="choose_faculty_hint">اختر كلية لاستكشاف أقسامها.</string>
+
+    <!-- Faculty names -->
+    <string name="faculty_sciences">العلوم</string>
+    <string name="faculty_technology">التكنولوجيا</string>
+    <string name="faculty_hydrocarbons">المحروقات والكيمياء</string>
+    <string name="faculty_law">الحقوق والعلوم السياسية</string>
+    <string name="faculty_letters">الآداب واللغات</string>
+    <string name="faculty_economics">الاقتصاد والتسيير</string>
+
+    <!-- Faculty details -->
+    <string name="faculty_details">معلومات الكلية</string>
+    <string name="faculty_label">كلية</string>
+    <string name="faculty_of_sciences">كلية العلوم</string>
+    <string name="faculty_of_sciences_tagline">اكتشف فصلك القادم في العلوم.</string>
+    <string name="action_call">اتصال</string>
+    <string name="action_sms">رسالة</string>
+    <string name="action_email">البريد</string>
+    <string name="about">حول</string>
+    <string name="faculty_of_sciences_about">استكشف التخصصات العلمية والبحث والأقسام التي تجمع بينها.</string>
+    <string name="departments">الأقسام</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="dept_computer_science">الإعلام الآلي</string>
+    <string name="dept_mathematics">الرياضيات</string>
+    <string name="dept_physics">الفيزياء</string>
+    <string name="dept_chemistry">الكيمياء</string>
+    <string name="find_your_way">اعثر على طريقك</string>
+    <string name="open_google_maps">فتح في خرائط جوجل</string>
+
+    <!-- Department details -->
+    <string name="department_details">معلومات القسم</string>
+    <string name="faculty_of_sciences_caps">كلية العلوم</string>
+    <string name="department_subtitle">قسم • جامعة بومرداس</string>
+    <string name="about_department">عن القسم</string>
+    <string name="department_about">ادرس الحوسبة والبرمجة والأنظمة الرقمية. استكشف مجالات الدراسة في القسم أدناه.</string>
+    <string name="specialties">التخصصات</string>
+    <string name="fields_of_study">مجالات الدراسة</string>
+    <string name="spec_software_engineering">هندسة البرمجيات</string>
+    <string name="spec_software_engineering_desc">تصميم وتطوير التطبيقات</string>
+    <string name="spec_information_systems">أنظمة المعلومات</string>
+    <string name="spec_information_systems_desc">البيانات والأنظمة الرقمية</string>
+    <string name="spec_ai">الذكاء الاصطناعي</string>
+    <string name="spec_ai_desc">الخوارزميات والتعلم الآلي</string>
+    <string name="find_department">اعثر على القسم</string>
+
+    <!-- Language screen -->
+    <string name="language_title">اللغة</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية</string>
+</resources>
