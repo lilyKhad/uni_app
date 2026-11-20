@@ -6,7 +6,7 @@
     android:background="@color/umbb_background"
     android:orientation="vertical">
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -193,7 +193,7 @@
                 android:textColor="@color/umbb_text_secondary"
                 android:textSize="12sp" />
         </LinearLayout>
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
     <include layout="@layout/layout_bottom_nav" />
 </LinearLayout>

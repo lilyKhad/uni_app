@@ -145,4 +145,11 @@
     <string name="language_arabic">العربية</string>
 
     <string name="open_google_maps">فتح في خرائط Google</string>
+
+    <string name="department_default_description">اكتشف المقررات والبرامج ومجالات الدراسة التي يقدمها هذا القسم.</string>
+    <string name="dept_mathematics_desc">ادرس الرياضيات البحتة والتطبيقية، من الجبر والتحليل إلى الاحتمالات والإحصاء.</string>
+    <string name="spec_applied_math">الرياضيات التطبيقية</string>
+    <string name="spec_applied_math_desc">النمذجة والطرق العددية</string>
+    <string name="spec_statistics">الإحصاء والاحتمالات</string>
+    <string name="spec_statistics_desc">تحليل البيانات والظواهر العشوائية</string>
 </resources>

@@ -106,6 +106,9 @@ class FacultiesActivity : AppCompatActivity() {
         val primary = ContextCompat.getColor(this, R.color.umbb_text_primary)
         val secondary = ContextCompat.getColor(this, R.color.umbb_text_secondary)
 
+        // New layout manager each time, so the list height is recalculated from zero
+        rv.layoutManager = GridLayoutManager(this, if (faculties) 2 else 1)
+
         if (faculties) {
             tabFaculties.setBackgroundResource(R.drawable.bg_tab_selected)
             tabDepartments.background = null
@@ -124,11 +127,10 @@ class FacultiesActivity : AppCompatActivity() {
             rv.adapter = departmentAdapter
         }
 
-        // 2 columns of faculty cards, 1 column of department rows
-        (rv.layoutManager as GridLayoutManager).spanCount = if (faculties) 2 else 1
         refreshList()
     }
 
+    // Filters the list by the search text (works in English and Arabic)
     // Filters the list by the search text (works in English and Arabic)
     private fun refreshList() {
         val query = etSearch.text.toString().trim()

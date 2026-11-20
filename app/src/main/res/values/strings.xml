@@ -144,4 +144,11 @@
     <string name="language_arabic">العربية</string>
 
     <string name="open_google_maps">Open in Google Maps</string>
+
+    <string name="department_default_description">Discover the courses, programs and fields of study offered by this department.</string>
+    <string name="dept_mathematics_desc">Study pure and applied mathematics, from algebra and analysis to probability and statistics.</string>
+    <string name="spec_applied_math">Applied mathematics</string>
+    <string name="spec_applied_math_desc">Modeling and numerical methods</string>
+    <string name="spec_statistics">Statistics &amp; probability</string>
+    <string name="spec_statistics_desc">Data analysis and random phenomena</string>
 </resources>

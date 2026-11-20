@@ -20,6 +20,15 @@ data class Campus(
     @StringRes val name: Int,
     val mapQuery: String
 )
+data class Specialty(
+    @StringRes val name: Int,
+    @StringRes val description: Int
+)
+
+data class DepartmentInfo(
+    @StringRes val description: Int,
+    val specialties: List<Specialty> = emptyList()
+)
 object UmbbData {
 
     val faculties: List<Faculty> = listOf(
@@ -99,6 +108,24 @@ object UmbbData {
         faculties.flatMapIndexed { index, faculty ->
             faculty.departments.map { Department(it, faculty.name, index) }
         }
+    // Details of each department (key = the department name resource id)
+    val departmentInfo: Map<Int, DepartmentInfo> = mapOf(
+        R.string.dept_computer_science to DepartmentInfo(
+            R.string.department_about,
+            listOf(
+                Specialty(R.string.spec_software_engineering, R.string.spec_software_engineering_desc),
+                Specialty(R.string.spec_information_systems, R.string.spec_information_systems_desc),
+                Specialty(R.string.spec_ai, R.string.spec_ai_desc)
+            )
+        ),
+        R.string.dept_mathematics to DepartmentInfo(
+            R.string.dept_mathematics_desc,
+            listOf(
+                Specialty(R.string.spec_applied_math, R.string.spec_applied_math_desc),
+                Specialty(R.string.spec_statistics, R.string.spec_statistics_desc)
+            )
+        )
+    )
     const val UNIVERSITY_MAP_QUERY = "Université M'Hamed Bougara de Boumerdès"
 
     val campuses: List<Campus> = listOf(
