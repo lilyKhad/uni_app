@@ -111,7 +111,9 @@ class DepartmentDetailsActivity : AppCompatActivity() {
         specialties.forEach { specialty ->
             val row = inflater.inflate(R.layout.item_specialty, container, false)
             row.findViewById<TextView>(R.id.tvSpecialtyName).setText(specialty.name)
-            row.findViewById<TextView>(R.id.tvSpecialtyDesc).setText(specialty.description)
+            val descView = row.findViewById<TextView>(R.id.tvSpecialtyDesc)
+            if (specialty.description == 0) descView.visibility = View.GONE
+            else descView.setText(specialty.description)
             container.addView(row)
         }
     }
